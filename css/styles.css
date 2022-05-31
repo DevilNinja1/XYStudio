@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #1bb55c;
+}
+
+h1 {
+	font-size: 72px;
+	width: 433px;
+	height: 300px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	line-height: 100px;
+	/* or 139% */
+
+	letter-spacing: 0.5px;
+}
+
+h3 {
+	font-size: 48px;
+	width: 448px;
+	height: 130px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	line-height: 65px;
+}
+
+footer {
+	background-color: #1bb55c;
+}
