@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -16,8 +20,8 @@ h6 {
 
 h1 {
 	font-size: 72px;
-	width: 433px;
-	height: 300px;
+	width: 675px;
+	height: 237px;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 800;
@@ -46,8 +50,9 @@ h3 {
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: center;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 100px;
 }
 
 .row {
@@ -56,6 +61,67 @@ h3 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
+}
+
+.homeTitle {
+	position: relative;
+	top: 50px;
+	left: -247px;
+}
+
+.homeDesc {
+	width: 438px;
+	height: 66px;
+	position: relative;
+	left: -170px;
+	top: 72px;
+	font-size: 18px;
+	line-height: 33px;
+}
+
+#Home .btn {
+	position: relative;
+	top: 148px;
+	left: -125px;
+}
+#Home H6 {
+	position: relative;
+	top: 118px;
+}
+
+section#Home {
+	margin-bottom: 200px;
+}
+
+.homeImageOne {
+	width: 387px;
+	height: 239px;
+	position: absolute;
+}
+
+.homeImageTwo {
+	width: 285px;
+	height: 387px;
+	position: absolute;
+	left: 411px;
+}
+
+.homeImageThree {
+	width: 387px;
+	height: 341px;
+	position: absolute;
+	top: 255px;
+}
+
+.homeImageFour {
+	width: 285px;
+	height: 193px;
+	position: absolute;
+	top: 397px;
+	left: 412px;
+}
+
+.projectImageOne {
 }
 
 footer {
