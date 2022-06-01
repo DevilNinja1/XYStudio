@@ -11,6 +11,7 @@ h4,
 h5,
 h6 {
 	color: #1bb55c;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -47,6 +48,14 @@ h3 {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
+}
+
+.row {
+	justify-content: center;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
 }
 
 footer {
