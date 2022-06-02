@@ -8,6 +8,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* Headings */
+
 h1,
 h2,
 h3,
@@ -19,15 +21,11 @@ h6 {
 }
 
 h1 {
-	font-size: 72px;
-	width: 675px;
+	font-size: 4rem;
+	width: 130%;
 	height: 237px;
-	font-family: 'Open Sans';
-	font-style: normal;
 	font-weight: 800;
-	line-height: 100px;
-	/* or 139% */
-
+	line-height: 139%;
 	letter-spacing: 0.5px;
 }
 
@@ -40,6 +38,77 @@ h3 {
 	font-weight: 700;
 	line-height: 65px;
 }
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+
+nav.navbar.navbar-expand-lg.navbar-light {
+	padding-bottom: 40px;
+}
+
+/* Home Section */
+/* 
+.homeTitle {
+	position: relative;
+	top: 50px;
+	left: -247px;
+} */
+
+.homeDesc {
+	width: 100%;
+	height: 66px;
+	/* position: relative;
+	left: -170px;
+	top: 72px; */
+	font-size: 1em;
+	line-height: 33px;
+}
+
+/* #Home .btn {
+	position: relative;
+	top: 148px;
+	left: -125px;
+} */
+
+/* #Home H6 {
+	position: relative;
+	top: 118px;
+} */
+
+section#Home {
+	margin-bottom: 200px;
+}
+
+.Home_right {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.homeImageOne {
+	width: 60%;
+	height: 30%;
+}
+
+.homeImageTwo {
+	width: 30%;
+	height: 70%;
+}
+
+.homeImageThree {
+	width: 60%;
+	height: 70%;
+}
+
+.homeImageFour {
+	width: 30%;
+	height: 30%;
+}
+
+/* Services Section */
 
 .jumbotron {
 	background-color: #fff;
@@ -59,71 +128,38 @@ h3 {
 	justify-content: center;
 }
 
-p {
-	font-family: 'Open Sans', sans-serif;
+/* About Section */
+
+.aboutRight {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-.homeTitle {
-	position: relative;
-	top: 50px;
-	left: -247px;
+.aboutImage {
+	width: 47%;
+	height: 47%;
 }
 
-.homeDesc {
-	width: 438px;
-	height: 66px;
-	position: relative;
-	left: -170px;
-	top: 72px;
-	font-size: 18px;
-	line-height: 33px;
+/* Project Section */
+
+.projectImage {
+	width: 90%;
+	height: 90%;
 }
 
-#Home .btn {
-	position: relative;
-	top: 148px;
-	left: -125px;
-}
-#Home H6 {
-	position: relative;
-	top: 118px;
-}
+/* Footer Section */
 
-section#Home {
-	margin-bottom: 200px;
-}
-
-.homeImageOne {
-	width: 387px;
-	height: 239px;
-	position: absolute;
-}
-
-.homeImageTwo {
-	width: 285px;
-	height: 387px;
-	position: absolute;
-	left: 411px;
-}
-
-.homeImageThree {
-	width: 387px;
-	height: 341px;
-	position: absolute;
-	top: 255px;
-}
-
-.homeImageFour {
-	width: 285px;
-	height: 193px;
-	position: absolute;
-	top: 397px;
-	left: 412px;
-}
-
-.projectImageOne {
-}
-
-footer {
+footer,
+footer h4 {
 	background-color: #1bb55c;
+	color: #fff;
+	padding: 10%;
+}
+
+footer a,
+footer li {
+	text-decoration: none;
+	color: #fff;
+	list-style: none;
 }
