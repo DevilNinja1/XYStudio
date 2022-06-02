@@ -82,6 +82,10 @@ section#Home {
 	margin-bottom: 200px;
 }
 
+h6 {
+	display: inline;
+}
+
 .Home_right {
 	display: flex;
 	flex-direction: row;
@@ -110,6 +114,10 @@ section#Home {
 
 /* Services Section */
 
+#Services {
+	padding: 5%;
+}
+
 .jumbotron {
 	background-color: #fff;
 }
@@ -130,6 +138,10 @@ section#Home {
 
 /* About Section */
 
+#About {
+	padding: 5%;
+}
+
 .aboutRight {
 	display: flex;
 	flex-direction: row;
@@ -143,9 +155,31 @@ section#Home {
 
 /* Project Section */
 
+#Project {
+	padding: 5%;
+}
+
 .projectImage {
 	width: 90%;
 	height: 90%;
+}
+
+/* Promo Section */
+
+#Promo {
+	padding: 5%;
+}
+
+/* Partners Section */
+
+#Partners {
+	padding: 5%;
+}
+
+/* Contact Section */
+
+#Contact {
+	padding: 5%;
 }
 
 /* Footer Section */
