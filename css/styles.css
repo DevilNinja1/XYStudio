@@ -23,7 +23,7 @@ h6 {
 h1 {
 	font-size: 4rem;
 	width: 130%;
-	height: 237px;
+	height: auto;
 	font-weight: 800;
 	line-height: 139%;
 	letter-spacing: 0.5px;
@@ -31,8 +31,8 @@ h1 {
 
 h3 {
 	font-size: 48px;
-	width: 448px;
-	height: 130px;
+	width: auto;
+	height: auto;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 700;
@@ -41,6 +41,7 @@ h3 {
 
 p {
 	font-family: 'Open Sans', sans-serif;
+	color: #8b8b8b;
 }
 
 /* NAVBAR */
@@ -59,7 +60,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 
 .homeDesc {
 	width: 100%;
-	height: 66px;
+	height: auto;
 	/* position: relative;
 	left: -170px;
 	top: 72px; */
@@ -168,6 +169,10 @@ h6 {
 
 #Promo {
 	padding: 5%;
+}
+
+.promoTop {
+	text-align: center;
 }
 
 /* Partners Section */
