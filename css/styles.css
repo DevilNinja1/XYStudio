@@ -22,9 +22,7 @@ h6 {
 }
 
 h1 {
-	font-size: 4rem;
-	width: 130%;
-	height: auto;
+	font-size: 3rem;
 	font-weight: 800;
 	line-height: 139%;
 	letter-spacing: 0.5px;
@@ -81,7 +79,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 } */
 
 section#Home {
-	margin-bottom: 200px;
+	padding: 5%;
 }
 
 h6 {
@@ -97,21 +95,29 @@ h6 {
 .homeImageOne {
 	width: 60%;
 	height: 30%;
+	position: absolute;
 }
 
 .homeImageTwo {
 	width: 30%;
 	height: 70%;
+	position: absolute;
+	left: 64%;
 }
 
 .homeImageThree {
 	width: 60%;
 	height: 70%;
+	position: absolute;
+	top: 32%;
 }
 
 .homeImageFour {
 	width: 30%;
 	height: 30%;
+	position: absolute;
+	top: 72%;
+	left: 64%;
 }
 
 /* Services Section */
