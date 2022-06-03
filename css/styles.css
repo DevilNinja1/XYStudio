@@ -18,6 +18,7 @@ h5,
 h6 {
 	color: #1bb55c;
 	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 2.5rem;
 }
 
 h1 {
@@ -130,7 +131,6 @@ h6 {
 	align-content: center;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 100px;
 }
 
 .row {
@@ -175,6 +175,12 @@ h6 {
 	text-align: center;
 }
 
+.promoCount {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
 /* Partners Section */
 
 #Partners {
@@ -187,6 +193,32 @@ h6 {
 	padding: 5%;
 }
 
+.contactTop {
+	display: flex;
+	/* text-align: center; */
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact_title {
+	width: 60%;
+}
+
+.contact_desc {
+	width: 75%;
+}
+
+.contactBottom {
+	color: rgba(80, 80, 80, 0.1);
+	text-align: center;
+}
+
+input.email {
+	width: 50%;
+	height: 100%;
+	padding: 5px;
+}
+
 /* Footer Section */
 
 footer,
@@ -194,6 +226,7 @@ footer h4 {
 	background-color: #1bb55c;
 	color: #fff;
 	padding: 10%;
+	padding-bottom: 2%;
 }
 
 footer a,
@@ -201,4 +234,12 @@ footer li {
 	text-decoration: none;
 	color: #fff;
 	list-style: none;
+	padding: 4%;
+	font-size: 20px;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	margin-top: 5%;
 }
